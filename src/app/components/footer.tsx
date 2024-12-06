@@ -53,30 +53,30 @@ const Footer = () => {
             <p className="mt-4 text-zinc-200 font-light">Save $3 with App New User Only</p>
             <div className="mt-4 flex items-center gap-2">
               <div className="w-[100px] h-[100px]">
-                <Image src={"/qrcode.png"} alt="" width={150} height={50} className="w-full h-full object-contain" />
+                <Image src={"/images/qrcode.png"} alt="" width={150} height={50} className="w-full h-full object-contain" />
               </div>
               <div className="">
                 <div className="w-36 h-12">
-                  <Image src={"/getongoogle.png"} alt="" width={150} height={50} className="w-full h-full object-contain" />
+                  <Image src={"/images/getongoogle.png"} alt="" width={150} height={50} className="w-full h-full object-contain" />
                 </div>
                 <div className="w-36 h-12">
-                  <Image src={"/getonapplestore.png"} alt="" width={150} height={50} className="w-full h-full object-contain" />
+                  <Image src={"/images/getonapplestore.png"} alt="" width={150} height={50} className="w-full h-full object-contain" />
                 </div>
               </div>
             </div>
             {/* Social Media Icons */}
             <div className="flex space-x-4 mt-6">
               <a href="#" className="hover:text-gray-400">
-                <Image src="/facebook.png" alt="Facebook" width={24} height={24} className="h-6 w-6" />
+                <Image src="/images/facebook.png" alt="Facebook" width={24} height={24} className="h-6 w-6" />
               </a>
               <a href="#" className="hover:text-gray-400">
-                <Image src="/twitter.png" alt="Twitter" width={24} height={24} className="h-6 w-6" />
+                <Image src="/images/twitter.png" alt="Twitter" width={24} height={24} className="h-6 w-6" />
               </a>
               <a href="#" className="hover:text-gray-400">
-                <Image src="/insta.png" alt="Instagram" width={24} height={24} className="h-6 w-6" />
+                <Image src="/images/insta.png" alt="Instagram" width={24} height={24} className="h-6 w-6" />
               </a>
               <a href="#" className="hover:text-gray-400">
-                <Image src="/linkedin.png" alt="LinkedIn" width={24} height={24} className="h-6 w-6" />
+                <Image src="/images/linkedin.png" alt="LinkedIn" width={24} height={24} className="h-6 w-6" />
               </a>
             </div>
           </div>
